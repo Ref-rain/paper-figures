@@ -7,4 +7,8 @@ the pattern of data, the distinguish among results, etc.
 
 This project based on python is introduced to give some demos about how to plot 
 beautiful, clear and professional figures, especially for the communities of 
-Computer Vision, Machine Learning， Statistics, etc.   
+Computer Vision, Machine Learning， Statistics, etc.  
+
+### Example
+#### Decision Boundary
+![decision boundary](./decision_boundary/example.pdf) 
