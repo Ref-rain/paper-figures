@@ -10,7 +10,7 @@ def decision_boundary():
 
     X, Y = np.meshgrid(x, y)
 
-    # The discrimant function of each class of Generative Models
+    # The discriminant function of each class of Generative Models
     z1 = -X + Y
     z2 = X + Y - 1
     z3 = -Y
@@ -32,7 +32,7 @@ def decision_boundary():
     plt.text(-5, 5, r'$\omega_1$', fontsize=15)
     plt.text(5, 5, r'$\omega_2$', fontsize=15)
     plt.text(0, -5, r'$\omega_3$', fontsize=15)
-    plt.savefig('example.png', format='png', dpi=1000)
+    plt.savefig('example.png', format='png', dpi=100)
     plt.show()
 
 
