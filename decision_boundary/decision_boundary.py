@@ -32,7 +32,7 @@ def decision_boundary():
     plt.text(-5, 5, r'$\omega_1$', fontsize=15)
     plt.text(5, 5, r'$\omega_2$', fontsize=15)
     plt.text(0, -5, r'$\omega_3$', fontsize=15)
-    plt.savefig('example.pdf', format='pdf', dpi=1000)
+    plt.savefig('example.png', format='png', dpi=1000)
     plt.show()
 
 
